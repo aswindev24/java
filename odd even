@@ -1,0 +1,29 @@
+class Even
+{
+    public static void main(String args[])
+    {
+        int i;
+        int number[]={1,2,3,4,5,6,7,8,9,10};
+        int odd[]=new int[20];
+        int even[]=new int[20];
+        System.out.println("ODD NUMBER LIST ");
+        for(i=0;i<10;i++)
+        {
+            if(number[i]%2!=0)
+            {
+                odd[i]=number[i];
+                System.out.println(odd[i]+" ");
+            }
+        }
+        System.out.println("EVEN NUMBER LIST ");
+        for(i=0;i<10;i++)
+        {
+            if(number[i]%2==0)
+            {
+                even[i]=number[i];
+                System.out.println(even[i]);
+            }
+        }
+        
+    }
+}
