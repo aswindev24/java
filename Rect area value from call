@@ -1,0 +1,19 @@
+class Rect
+{
+void area(int l ,int b)
+{
+
+
+int area;
+area=l*b;
+System.out.println("Area of rectangle is "+area);
+}
+}
+class Rmulm
+{
+public static void main(String args[])
+{
+Rect r=new Rect();
+r.area(4,5);
+}
+}
